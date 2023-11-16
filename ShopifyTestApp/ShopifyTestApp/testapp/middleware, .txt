@@ -1,0 +1,45 @@
+middleware, 
+nattlampan webbutiken
+steg deploya det och sätta upp en data
+koppla upp på shopifys api simple proof of koncept och lagra datan på något sätt
+bokföring och order
+fortnox
+ta kundlista och skicka push notis till de
+kundregister är bra.
+marknads aktiviteter.
+drivstudier företagskunder hantera faktura.
+kunder kan vara en bra entity att börja labba på.
+skickas som en bokföringsorder, nu har vi sålt antal produkter.
+specas vad som är sålt och intäkt.
+ordern ska påverka mycket när kunden köper lampan.
+när kunden betalar, bokföra själva betalning,
+det ska på verka lagret.
+köp varan är mer reserverat.
+man får inte boka för än det har hänt.
+lagersaldo finns i shopify butiken.
+shopify kommer vara brandväggen för oss.
+kan tillägg försäljning även försäljning blir negativ,
+det ska påverka bokförningen,
+det ska matcha beloppet 
+olika shoppar olika lager.
+order som kunden lägger det första order, dels få en intäkt och redovisa moms och få en fodran i shopify och lagert minskas och sen när betalningen kommer ska nollställ fodran.
+kolla mer på webhooks .
+hantering av refunds.
+vi kommer behöva hantera 
+vi kommer behöva kolla på order creation när en ny order kommer in, refund creation, product creation och product update.
+få in fakturor från shopify till fortknox? kanske få ut det via apin.
+
+webbhooks för inventory. product creation och product update lägger till mer.
+fortknox klara inte av 10 kläder finns olika färger och olika storlek.
+middleware sätta en syntax för ql.
+
+få upp en proof of concept
+deploya den.
+hålla isär kundregister och se till 
+test intergation mot fortknox.
+kundnummer som har en prefix kopplad, kunna särskila de.
+kunder är string
+
+fortknox,
+shopify ska upprepas oss.
+mandatory webhooks.

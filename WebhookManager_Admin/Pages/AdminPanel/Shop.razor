@@ -1,0 +1,37 @@
+﻿@page "/shop/{selectedItem}"
+
+<h3>Shop</h3>
+<h1>@selectedItem</h1>
+
+<EditForm Model="@formData" OnValidSubmit="HandleValidSubmit">
+    <div class="mb-3">
+    <div class="mb-1">
+        <label class="form-label">Topic:</label>
+    </div>
+    <InputText class=" mb-3" @bind-Value="formData.createOrder" Placeholder="orders/create" />
+    <div class="mb-1">
+        <label class="form-label">Send to:</label>
+    </div>
+        <InputText class=" mb-3" @bind-Value="formData.url" Placeholder="https://www" />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public string selectedItem { get; set; }
+
+    private FormData formData = new FormData();
+
+    private class FormData
+    {
+        public string createOrder { get; set; }
+        public string url { get; set; }
+    }
+
+    private void HandleValidSubmit()
+    {
+        // Handle form submission here
+        Console.WriteLine($"Amount: {formData.createOrder}");
+    }
+}

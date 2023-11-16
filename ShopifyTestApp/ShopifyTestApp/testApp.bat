@@ -1,0 +1,1 @@
+ngrok http 44332 -host-header="localhost:44332"

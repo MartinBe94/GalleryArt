@@ -1,0 +1,11 @@
+﻿global using Data.Entities;
+global using Data.Service;
+global using Data.Context;
+global using Microsoft.AspNetCore.Mvc;
+global using Org.BouncyCastle.Crypto.Generators;
+global using Microsoft.EntityFrameworkCore;
+global using ProjectArtGallery;
+global using AutoMapper;
+global using Common.DTOs;
+global using Data.Interfaces;
+global using Data.Context;

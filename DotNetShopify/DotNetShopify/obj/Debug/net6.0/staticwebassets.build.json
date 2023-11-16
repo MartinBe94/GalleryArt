@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3FiTMBz5+JO5GqtNOM19EvKNB1pFZd4LOY4JuYyP9OQ=",
+  "Source": "DotNetShopify",
+  "BasePath": "_content/DotNetShopify",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

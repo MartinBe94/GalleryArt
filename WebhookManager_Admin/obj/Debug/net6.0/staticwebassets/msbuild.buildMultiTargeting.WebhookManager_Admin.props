@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebhookManager_Admin.props" />
+</Project>

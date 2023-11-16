@@ -1,0 +1,44 @@
+﻿@page "/admin-panel"
+
+<h3>Admin_Panel</h3>
+
+
+<div class="header-sign">
+    <div class="dropdown" id="toggleDropdown">
+        <button @onclick="Show" @onblur="Hide" class="button-md" type="button">
+            <i data-feather="user"></i>
+            <span>Personal cab</span>
+        </button>
+        <ul class="dropdown-list @(isActive ? "is-active" : "")">
+            <li class="dropdown-item">
+                <a class="dropdown-link" href="/cabinet">
+                    <p class="text-md">Cabinet</p>
+                </a>
+            </li>
+            <li class="dropdown-item">
+                <a @onclick="LogOutAsync" class="dropdown-link" href="">
+                    <p class="text-md">LogOut</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+@code {
+    private bool isActive = false;
+
+    private void Show()
+    {
+        isActive = true;
+    }
+
+    private void Hide()
+    {
+        isActive = false;
+    }
+
+    private async Task LogOutAsync()
+    {
+
+    }
+}

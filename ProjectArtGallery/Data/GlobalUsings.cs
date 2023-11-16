@@ -1,0 +1,10 @@
+﻿global using Data.Entities;
+global using Data.Service;
+global using Data.Context;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.IdentityModel.JsonWebTokens;
+global using Microsoft.IdentityModel.Tokens;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using System.Text;
+global using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
